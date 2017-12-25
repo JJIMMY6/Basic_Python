@@ -1,5 +1,5 @@
 ## 5. IF STATEMENTS
-###A Simple Example
+### A Simple Example
 ```python
 #The value 'bmw' should be printed in all uppercase
 cars = ['adui', 'bmw', 'subaru', 'toyota']
@@ -18,7 +18,7 @@ Subaru
 Toyota
 ```
 ---
-###Ignoring Case When Checking for Equality
+### Ignoring Case When Checking for Equality
 ```
 car = 'Audi'
 car.lower() == 'adui'
@@ -27,7 +27,7 @@ car.lower() == 'adui'
 ---
 `True`
 
-###Checking for Inequality
+### Checking for Inequality
 ```python
 requested_topping = 'mushrooms'
 
@@ -37,7 +37,7 @@ if requested_topping != 'anchovies':
 ---
 `Hold the anchovies!`
 
-###Checking Multiple Conditions
+### Checking Multiple Conditions
 
 ```python
 #Using and to Check Multiple Conditions
@@ -81,7 +81,7 @@ requested_toppings = ['mushrooms', 'onions', 'pineapple']
 True
 False
 ```
-###if Statements
+### if Statements
 ```python
 #The if-elif-else Chain
 age = 12
@@ -111,7 +111,7 @@ else:
 
 print("Your admission cost is $" + str(price) + ".")
 ```
-###Using if Statements with Lists
+### Using if Statements with Lists
 ```python
 #Using Multiple Lists
 available_toppings = ['mushrooms', 'olives', 'green peppers','pepperoni', 'pineapple', 'extra cheese']
@@ -135,7 +135,7 @@ Adding extra cheese.
 Finished making your pizza!
 ```
 
-##6. DICTIONARIES
+## 6. DICTIONARIES
 ```python 
 alien_0 = {'color': 'green', 'points':5}
 
@@ -168,7 +168,7 @@ print(alien_0)
 >[Python 3 New dict](https://docs.python.org/3.6/whatsnew/3.6.html#new-dict-implementation)
 
 
-###Modifying Values in a Dictionary
+### Modifying Values in a Dictionary
 ```python
 alien_0 = {'x_position': 0,'y_position': 25, 'speed':, 'medium'}
 print("Original x-position: " + str(alien_0['x_position']))
@@ -194,7 +194,7 @@ Original x-position: 0
 New x-position: 2
 ```
 
-###Looping Through a Dictionary
+### Looping Through a Dictionary
 ```python
 # Looping Through All Key-Value Pairs
 user_0 = {
@@ -247,7 +247,7 @@ Phil
  Hi Phil, I see your favorite language is Python!
 ```
 
-##Nesting
+## Nesting
 ```python
 # A list of Dictionaries.
 # Make an empty list for storing aliens.
