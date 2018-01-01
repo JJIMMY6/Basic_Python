@@ -24,7 +24,7 @@ car = 'Audi'
 car.lower() == 'adui'
 #The lower() function doesn’t change the value that was originally stored in car
 ```
----
+
 `True`
 
 ### Checking for Inequality
@@ -34,7 +34,7 @@ requested_topping = 'mushrooms'
 if requested_topping != 'anchovies':
     print("Hold the anchovies!")
 ```
----
+
 `Hold the anchovies!`
 
 ### Checking Multiple Conditions
@@ -63,7 +63,7 @@ age_0 >= 21 or age_1 >= 21
 age_0 = 18
 age_0 >= 21 or age_1 >= 21
 ```
----
+
 ```
 True
 False
@@ -81,6 +81,7 @@ requested_toppings = ['mushrooms', 'onions', 'pineapple']
 True
 False
 ```
+---
 ### if Statements
 ```python
 #The if-elif-else Chain
@@ -94,7 +95,6 @@ else:
     print("Your admission cost is $10.")
 
 ```
----
 
 `Your admission cost is $5.`
 
@@ -111,6 +111,8 @@ else:
 
 print("Your admission cost is $" + str(price) + ".")
 ```
+---
+
 ### Using if Statements with Lists
 ```python
 #Using Multiple Lists
