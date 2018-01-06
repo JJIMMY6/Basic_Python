@@ -1,2 +1,2 @@
-# Python_Basic
-First Steps With Python
+# Python Basic
+My First Steps With Python
