@@ -8,4 +8,3 @@ favorite_languages = {
 print("Sarah's favorite languages is " + 
 	favorite_languages['sarah'].title() + 
 	".")
-
