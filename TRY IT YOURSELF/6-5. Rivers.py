@@ -15,3 +15,4 @@ for river in rivers.keys():
 print("\nThe countary of each river:")
 for countary in rivers.values():
 	print(countary.title())
+	
