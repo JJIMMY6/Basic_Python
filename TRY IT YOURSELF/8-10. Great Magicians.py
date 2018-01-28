@@ -4,6 +4,7 @@ def show_magicians(magicians):
 		print(magician.title())
 
 def add_great(magicians):
+	"""add 'the Great' to each magician's name."""
 	for great_magician in range(len(magicians)):
 		magicians[great_magician] += " the Great"
 
