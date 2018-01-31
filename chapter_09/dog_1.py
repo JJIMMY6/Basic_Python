@@ -18,5 +18,6 @@ class Dog():
 # Making an Instance from a Class
 my_dog = Dog('willie', 6)
 
+# Accessing Attributes
 print("My dog's name is " + my_dog.name.title() + ".")
 print("My dog is " + str(my_dog.age) + " years old.")
